@@ -22,15 +22,15 @@
 
             <img src="images/selo.svg" alt="Selo">
           </span>
-          <img src="images/perfil.jpg" alt="Foto Pessoal">
+          <img id="userPhoto" src=" " alt="Foto Pessoal">
         </div>
 
-        <h1 id="userName">Eduardo Amarante</h1>
-        <a href="http://github.com/EduardoAmarante" target="_blank">
-          <img src="images/github.svg"> eduardo</a>
+        <h1 id="userName">Eduardo</h1>
+        <a id="userGitHub" href="http://github.com/EduardoAmarante" target="_blank">
+          <img src="images/github.svg"><span id="userLogin"></span></a>
 
 
-        <p>NLW - Next Level Week</p>
+        <p id="userBio">NLW - Next Level Week</p>
 
         <ul id="socialLinks">
           <li class="youtube"> 
@@ -64,27 +64,7 @@
 
     </main>
 
-    <script>
-      
-      const link ={
-        github : "EduardoAmarante",
-        youtube : "droidhs",
-        facebook : "",
-        instagram : "eduardo4marante",
-        twitter : ""
-      }
-
-      function changeSocialMediaLinks(){
-        for(let li of socialLinks.children){
-          const social = li.getAttribute('class')
-          li.children[0].href = `https://${social}.com/${link[social]}`
-        }
-      }
-      
-      changeSocialMediaLinks()
-      
-
-    </script>
+    <script src="main.js"></script>
 
   </body>
 </html>
