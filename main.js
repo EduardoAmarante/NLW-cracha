@@ -4,7 +4,7 @@ const link ={
   youtube : "droidhs",
   facebook : "",
   instagram : "eduardo4marante",
-  twitter : ""
+  twitter : "eduardo4marante"
 }
 
 function changeSocialMediaLinks(){
