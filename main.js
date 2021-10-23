@@ -2,7 +2,7 @@
 const link ={
   github : "EduardoAmarante",
   youtube : "droidhs",
-  facebook : "",
+  facebook : "Eduardo4marante",
   instagram : "eduardo4marante",
   twitter : "eduardo4marante"
 }
