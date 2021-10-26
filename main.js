@@ -1,10 +1,10 @@
 
-const link ={
-  github : "EduardoAmarante",
-  youtube : "droidhs",
-  facebook : "Eduardo4marante",
-  instagram : "eduardo4marante",
-  twitter : "eduardo4marante"
+const link = {
+  github: 'EduardoAmarante',
+  youtube: 'droidhs',
+  facebook: 'Eduardo4marante',
+  instagram: 'eduardo4marante',
+  twitter: 'eduardo4marante'
 }
 
 function changeSocialMediaLinks(){
